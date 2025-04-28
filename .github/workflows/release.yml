@@ -29,7 +29,7 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
           echo "DEB_VERSION=$VERSION" >> $GITHUB_OUTPUT
       - name: Build
-        uses: icann-dns/gha-ubuntu-packaging@v2.1.1
+        uses: icann-dns/gha-ubuntu-packaging@fix_script
         with:
           dist: "${{ matrix.dist }}"
           platform: "${{ matrix.arch }}"
