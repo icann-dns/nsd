@@ -1,7 +1,0 @@
-Tests:
- simpletest,
-Restrictions:
- isolation-container,
- needs-root,
-Depends:
- nsd,
